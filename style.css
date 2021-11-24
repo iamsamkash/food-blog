@@ -1,6 +1,8 @@
 /* css reset */
+
 *{
     margin: 0px;
+scroll-behavior: smooth; 
     padding: 0px;
 }
 /* navigation bar */
@@ -91,7 +93,7 @@ background-color: black;
      cursor: pointer;
  }
  .btn1:hover{
-    padding: 6px 17px;
+    transform: scale(1.02);
     border-radius: 8px;
     border: 2px solid white;
     background-color: orangered;
@@ -132,7 +134,6 @@ font-size: 2.5rem;
  }
  .box:hover{
     box-shadow: 6px 7px 6px grey;
-    /* padding: 25px; */
     transform: scale(1.02);
  }
  .box h3{
@@ -196,7 +197,7 @@ color: white;
 
 } 
 .btn:hover{
-    padding: 6px 12px;
+    transform: scale(1.02);
     color: black;
     background-color: white;
 
@@ -209,4 +210,17 @@ footer{
     background-color: orange;
     text-align: center;
     padding: 10px 20px;
+}
+/* scroll effect */
+#top, #topl{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 2px 11px 5px 11px;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
 }
